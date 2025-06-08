@@ -36,7 +36,7 @@ class LevenshteinChatBot:
         best_match_index = distances.index(min(distances))
         return self.answers[best_match_index]
 
-# CSV 파일 경로 #그냥 filepayh=filepath = 'ChatbotData.csv' 사용시 경로의 파일을 찾지못해 상시경로로 수정
+# CSV 파일 경로 #그냥 filepayh=filepath = 'ChatbotData.csv' 사용시 경로의 파일을 찾지못해 상세경로로 수정
 filepath = r'c:\Users\sksms\Downloads\새 폴더\ChatbotData.csv' 
 
 # 챗봇 인스턴스 생성
